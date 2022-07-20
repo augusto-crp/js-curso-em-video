@@ -20,14 +20,14 @@
         function calcular() {
             let n1 = Number(window.prompt("Digite um número:"))
             let res = window.document.getElementById("resultado")
-            res.innerHTML = `<p>O número a ser analisado aqui será o <strong>${n1}</strong></p><hr>`
-            res.innerHTML += `<p>O seu valor absoluto é ${Math.abs(n1)}</p>`
-            res.innerHTML += `<p>A sua parte inteira é ${Math.trunc(n1)}</p>`
-            res.innerHTML += `<p>O valor inteiro mais próximo é ${Math.round(n1)}</p>`
-            res.innerHTML += `<p>A sua raiz quadrada é ${Math.sqrt(n1)}</p>` 
-            res.innerHTML += `<p>A sua raiz cúbica é ${Math.cbrt(n1)}</p>`        
-            res.innerHTML += `<p>O valor de ${n1}<sup>2</sup> é ${Math.pow(n1, 2)}</p>`
-            res.innerHTML += `<p>O valor de ${n1}<sup>3</sup> é ${Math.pow(n1, 3)}</p>`
+            res.innerHTML = (`O número a ser analisado aqui será o <strong>${n1}</strong><hr>`)
+            res.innerHTML = (`O seu valor absoluto é ${Math.abs(n1)}`)
+            res.innerHTML = (`A sua parte inteira é ${Math.trunc(n1)}`)
+            res.innerHTML = (`O valor inteiro mais próximo é ${Math.round(n1)}`)
+            res.innerHTML = (`A sua raiz quadrada é ${Math.sqrt(n1)}`) 
+            res.innerHTML = (`A sua raiz cúbica é ${Math.cbrt(n1)}`)        
+            res.innerHTML = (`O valor de ${n1}<sup>2</sup> é ${Math.pow(n1, 2)}`)
+            res.innerHTML = (`O valor de ${n1}<sup>3</sup> é ${Math.pow(n1, 3)}`)
         }
     </script>
     
